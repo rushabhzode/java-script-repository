@@ -1,7 +1,8 @@
-const accountId =12345
+const accountId =12345;
 let accountEmail = "rushabhzode@gmail.com"
 var accountPassword = "12345"
-
-
+const country ="india";
 console.log(accountId);
-console.table([accountId, accountEmail, accountPassword]);
+result = 5+5;
+console.log(4 + 4);
+console.table([accountId, accountEmail, accountPassword,country,result]);
