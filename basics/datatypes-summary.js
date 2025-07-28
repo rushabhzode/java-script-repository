@@ -242,3 +242,66 @@
 // ---
 
 // Let me know if you want a printable cheat sheet version too!
+
+
+//********************************************** */
+
+// In JavaScript, stack and heap refer to two types of memory 
+// used to manage data:
+
+// 🔹 Stack
+// The stack is used for static memory allocation.
+
+// It stores:
+
+// Primitive values (like numbers, booleans, null, undefined)
+
+// Function calls (call stack)
+
+// Reference to objects/functions stored in the heap
+
+// ✅ Characteristics:
+// Fast access
+
+// LIFO (Last In First Out) structure
+
+// Automatically managed (when a function ends, its stack frame is cleared)
+
+// 🧠 Example:
+// js
+// Copy
+// Edit
+// let x = 10;  // stored in stack
+// function greet() {
+//   let message = "Hello"; // message stored in stack
+// }
+// 🔹 Heap
+// The heap is used for dynamic memory allocation.
+
+// It stores:
+
+// Objects, arrays, and functions
+
+// ✅ Characteristics:
+// Slower than stack
+
+// Memory management is done by JavaScript’s Garbage Collector
+
+// Used when the size or structure is not known in advance
+
+// 🧠 Example:
+// js
+// Copy
+// Edit
+// let user = {
+//   name: "Rushabh", // this object is stored in heap
+//   age: 25
+// };
+// 📌 Summary Table
+// Feature	Stack	Heap
+// Type of memory	Static	Dynamic
+// Stores	Primitives, function frames	Objects, arrays, functions
+// Speed	Fast	Slower
+// Size	Limited	Larger
+// Managed by	JavaScript engine	JavaScript garbage collector
+
