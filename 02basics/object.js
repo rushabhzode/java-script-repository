@@ -1,12 +1,119 @@
-//creating object and acces it
+//Object literals
+//singalton object
 
-const person = {
-    name: "Rushabh",
-    age: 28,
-    email:"rushabhzode@gmail.com",
-    location: "India",
-}
-console.log(person["name"]); // Accessing property using bracket notation
-console.log(person["age"]); // Accessing property using bracket notation
-console.log(person["email"]); 
-console.log(person["location"]);
+
+//object literals
+// const person = {
+//     name: "Rushabh",
+//     age: 28,
+//     email:"rushabhzode@gmail.com",
+//     location: "India",
+// }
+// console.log(person["name"]); // Accessing property using bracket notation
+// console.log(person["age"]); // Accessing property using bracket notation
+// console.log(person["email"]); 
+// console.log(person["location"]);
+
+//Singalton objects
+//const tinderUser = new object(); // Creating an empty object(singalton object)
+//console.log(tinderUser); // Output: {}
+
+//const tindderUser2 = {}; // Creating an empty object using object literal syntax(not a singleton object)
+//console.log(tindderUser2); // Output: {}
+
+
+//object inside object
+// const regularUser = {
+//     email: "rs@gmail.com",
+//     fullname: {
+//        userfullname:{
+//         firstname : "Rushabh",
+//         lastname : "Zode",
+//        }
+
+//     }
+// }
+// console.log(regularUser.fullname.userfullname.firstname); // 
+
+
+// const tinderUser = new Object()
+// const tinderUser = {}
+
+// tinderUser.id = "123abc"
+// tinderUser.name = "Sammy"
+// tinderUser.isLoggedIn = false
+
+// console.log(tinderUser);
+
+// const regularUser = {
+//     email: "some@gmail.com",
+//     fullname: {
+//         userfullname: {
+//             firstname: "hitesh",
+//             lastname: "choudhary"
+//         }
+//     }
+// }
+
+// console.log(regularUser.fullname.userfullname.firstname);
+
+// const obj1 = {1: "a", 2: "b"}
+// const obj2 = {3: "a", 4: "b"}
+// const obj4 = {5: "a", 6: "b"}
+
+// const obj3 = { obj1, obj2 }
+// const obj3 = Object.assign({}, obj1, obj2, obj4)
+
+// const obj3 = {...obj1, ...obj2}
+// console.log(obj3);
+
+
+// const users = [
+//     {
+//         id: 1,
+//         email: "h@gmail.com"
+//     },
+//     {
+//         id: 1,
+//         email: "h@gmail.com"
+//     },
+//     {
+//         id: 1,
+//         email: "h@gmail.com"
+//     },
+// ]
+
+// users[1].email
+// console.log(tinderUser);
+
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+// const course = {
+//     coursename: "js in hindi",
+//     price: "999",
+//     courseInstructor: "hitesh"
+// }
+
+// course.courseInstructor
+
+//const {courseInstructor: instructor} = course
+
+// console.log(courseInstructor);
+//console.log(instructor);
+
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+// [
+//     {},
+//     {},
+//     {}
+// ]
